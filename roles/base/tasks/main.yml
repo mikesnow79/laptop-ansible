@@ -15,7 +15,7 @@
   tags:
     - aur
 
-# - include: ntp.yml
+- include: ntp.yml
 # - include: pip.yml
 # - include: zsh.yml
 
