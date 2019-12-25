@@ -14,12 +14,12 @@
 #   tags:
 #     - aur
 
-# - name: Set EDITOR to vim
-#   lineinfile:
-#     path: /home/{{ user_name }}/.profile
-#     state: present
-#     regexp: '^export EDITOR='
-#     line: "export EDITOR=/usr/bin/vim"
+- name: Set EDITOR to vim
+  lineinfile:
+    path: /home/{{ user_name }}/.profile
+    state: present
+    regexp: '^export EDITOR='
+    line: "export EDITOR=/usr/bin/vim"
 
 
 - name: Setup default Git configuration
