@@ -16,6 +16,6 @@
       debug:
         msg: "downloads dir is {{ downloads }}"
 
-    - name: Are eggs spam?
+    - name: Are spam eggs?
       debug:
-        msg: "Egg value: {{ eggs }}"
+        msg: "Spam value: {{ spam }}"
