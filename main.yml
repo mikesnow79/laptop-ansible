@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+
+  vars_files:
+    - default.config.yml
+
+  tasks:
+    - name:
+      debug:
+        msg: "Hello Cleveland"
