@@ -16,3 +16,6 @@
       file:
         path: "{{ downloads }}"
         state: directory
+
+  roles:
+    - { role: editors,            tags: ['editors'] }
