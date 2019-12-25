@@ -35,3 +35,5 @@ utils_aur:
 shell_aliases:
     - alias ll='ls -lrta'
     - alias vi=vim
+
+pip_packages: []
