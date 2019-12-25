@@ -5,7 +5,17 @@
   vars_files:
     - default.config.yml
 
+  pre_tasks:
+  - include_vars: "{{ item }}"
+    with_fileglob:
+      - "{{ playbook_dir }}/config.yml"
+    tags: ['always']
+
   tasks:
-    - name:
+    - name: What is downloads dir
       debug:
-        msg: "Playbook dir is {{ playbook_dir }}"
+        msg: "downloads dir is {{ downloads }}"
+
+    - name: Are eggs spam?
+      debug:
+        msg: "Egg value: {{ eggs }}"
