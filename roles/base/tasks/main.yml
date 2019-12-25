@@ -16,7 +16,7 @@
     - aur
 
 - include: ntp.yml
-# - include: pip.yml
+- include: pip.yml
 # - include: zsh.yml
 
 - name: Creates projects directory
