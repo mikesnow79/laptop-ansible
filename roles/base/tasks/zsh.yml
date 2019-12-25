@@ -32,16 +32,16 @@
 #   tags:
 #     - zsh
 
-# - name: Change zsh shell theme from 'robbyrussell' to 'agnoster'
-#   replace:
-#     path: /home/{{ user_name }}/.zshrc
-#     regexp: 'ZSH_THEME="robbyrussell"'
-#     replace: 'ZSH_THEME="agnoster"'
-#     backup: yes
-#   become_user: '{{ user_name }}'
-#   become: yes
-#   tags:
-#     - zsh
+- name: Change zsh shell theme from 'robbyrussell' to 'agnoster'
+  replace:
+    path: /home/{{ user_name }}/.zshrc
+    regexp: 'ZSH_THEME="robbyrussell"'
+    replace: 'ZSH_THEME="agnoster"'
+    backup: yes
+  become_user: '{{ user_name }}'
+  become: yes
+  tags:
+    - zsh
 
 - name: Set zsh as default shell
   user:
