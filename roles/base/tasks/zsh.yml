@@ -48,5 +48,6 @@
     name: "{{ user_name }}"
     shell: /usr/bin/zsh
   become: true
+  sudo: yes
   tags:
     - zsh
