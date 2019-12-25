@@ -3,6 +3,7 @@ downloads: ~/.ansible-downloads/
 
 user_name: "msnow"
 user_email: "mikesnow79@gmail.com"
+work_dirname: "projects"
 
 editors:
   - vim
@@ -11,3 +12,26 @@ editors:
 
 editors_aur: 
   - visual-studio-code-bin
+
+utils:
+  - base-devel
+  - gconf
+  - libcurl-gnutls
+  - binutils
+  - gcc
+  - htop
+  - make
+  - mlocate
+  - python-pip
+  - xclip
+  - xorg-xinput
+  - ntp
+
+utils_aur:
+    - git-extras
+    - mkpasswd
+    - zsh-git-prompt
+
+shell_aliases:
+    - alias ll='ls -lrta'
+    - alias vi=vim
