@@ -9,4 +9,5 @@ editors:
   - emacs
   - gimp
 
-editors_aur: []
+editors_aur: 
+  - visual-studio-code-bin
