@@ -8,4 +8,4 @@
   tasks:
     - name:
       debug:
-        msg: "Hello Cleveland"
+        msg: "Playbook dir is {{ playbook_dir }}"
