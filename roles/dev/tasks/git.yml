@@ -1,0 +1,3 @@
+- name: "H0 H0 H0"
+  debug:
+    msg: "Santa with 5-12 black men"

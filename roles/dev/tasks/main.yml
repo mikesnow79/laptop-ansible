@@ -1,3 +1,6 @@
 - name: "it sings"
   debug:
     msg: "pittsburgh started it"
+
+
+- include: git.yml
