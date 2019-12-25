@@ -15,7 +15,3 @@
     - name: What is downloads dir
       debug:
         msg: "downloads dir is {{ downloads }}"
-
-    - name: Are spam eggs?
-      debug:
-        msg: "Spam value: {{ spam }}"
