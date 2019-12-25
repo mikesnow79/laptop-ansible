@@ -1,0 +1,3 @@
+- name: "it sings"
+  debug:
+    msg: "pittsburgh started it"
