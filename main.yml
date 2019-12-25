@@ -18,4 +18,6 @@
         state: directory
 
   roles:
+    - { role: base,               tags: ['base'] }
     - { role: editors,            tags: ['editors'] }
+
