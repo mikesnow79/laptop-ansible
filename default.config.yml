@@ -1,2 +1,12 @@
 ---
 downloads: ~/.ansible-downloads/
+
+user_name: "msnow"
+user_email: "mikesnow79@gmail.com"
+
+editors:
+  - vim
+  - emacs
+  - gimp
+
+editors_aur: []
