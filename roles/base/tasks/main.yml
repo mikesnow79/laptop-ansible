@@ -18,6 +18,7 @@
 - include: ntp.yml
 - include: pip.yml
 - include: zsh.yml
+- include: git.yml
 
 - name: Creates projects directory
   file:
@@ -25,5 +26,3 @@
     state: directory
   become_user: '{{ user_name }}'
   become: yes
-
-- include: git.yml
