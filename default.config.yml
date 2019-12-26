@@ -59,6 +59,5 @@ fonts_aur:
 
 media: []
 
-media_aur:
-  - spotify
+media_aur: []
 
