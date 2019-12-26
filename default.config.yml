@@ -26,6 +26,7 @@ utils:
   - xclip
   - xorg-xinput
   - ntp
+  - fontforge
 
 utils_aur:
     - git-extras
