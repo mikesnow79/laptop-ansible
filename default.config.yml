@@ -33,6 +33,7 @@ utils_aur:
     - git-extras
     - mkpasswd
     - zsh-git-prompt
+    - google-chrome
 
 shell_aliases:
     - alias ll='ls -lrta'
