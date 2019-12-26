@@ -37,3 +37,16 @@ shell_aliases:
     - alias vi=vim
 
 pip_packages: []
+
+developer_stack:
+    - nodejs
+    - npm
+
+developer_stack_sudo:
+    - jq
+    - docker
+    - docker-compose
+    - hub
+
+developer_stack_aur: []
+
