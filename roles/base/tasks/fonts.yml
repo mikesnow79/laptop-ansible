@@ -1,0 +1,15 @@
+- name: Create user shared fonts dir
+  file:
+    path: /home/{{ user_name }}/.local/share/fonts
+    state: directory
+  become_user: '{{ user_name }}'
+  become: yes
+
+- name: Install fonts from Arch User Repository
+  script: ../../../aur/install-aur.sh {{ item }}
+  with_items: '{{ fonts_aur }}'
+  register: install_result
+  changed_when: install_result.rc == 0
+  failed_when: install_result.rc != 0 and install_result.rc != 255
+  tags:
+    - aur

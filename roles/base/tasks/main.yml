@@ -20,6 +20,7 @@
 - include: zsh.yml
 - include: git.yml
 - include: dotfiles.yml
+- include: fonts.yml
 
 - name: Creates projects directory
   file:
