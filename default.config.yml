@@ -38,11 +38,11 @@ shell_aliases:
 
 pip_packages: []
 
-developer_stack:
-    - nodejs
-    - npm
+developer_stack: []
 
 developer_stack_sudo:
+    - nodejs
+    - npm
     - jq
     - docker
     - docker-compose
