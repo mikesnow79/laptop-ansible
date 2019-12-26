@@ -5,6 +5,9 @@ user_name: "msnow"
 user_email: "mikesnow79@gmail.com"
 work_dirname: "projects"
 
+# zsh_theme: "agnoster"
+zsh_theme: "powerlevel9k/powerlevel9k"
+
 editors:
   - vim
   - emacs

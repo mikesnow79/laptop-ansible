@@ -32,11 +32,18 @@
 #   tags:
 #     - zsh
 
+- name: Get PowerLevel 9k theme from git
+  git:
+    repo: 'https://github.com/bhilburn/powerlevel9k.git'
+    dest: "/home/{{ user_name }}/.oh-my-zsh/custom/themes/powerlevel9k"
+  tags:
+    - zsh
+
 - name: Change zsh shell theme from 'robbyrussell' to 'agnoster'
   replace:
     path: /home/{{ user_name }}/.zshrc
     regexp: 'ZSH_THEME="robbyrussell"'
-    replace: 'ZSH_THEME="agnoster"'
+    replace: 'ZSH_THEME="{{ zsh_theme }}"'
     backup: yes
   become_user: '{{ user_name }}'
   become: yes
