@@ -1,0 +1,5 @@
+- name: Install virtual machine packages
+  pacman:
+    name: '{{ vms }}'
+    state: present
+  become: yes
