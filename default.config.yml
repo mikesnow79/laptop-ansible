@@ -27,6 +27,7 @@ utils:
   - xorg-xinput
   - ntp
   - fontforge
+  - python-psutil
 
 utils_aur:
     - git-extras
