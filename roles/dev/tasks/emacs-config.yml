@@ -1,0 +1,7 @@
+- name: install spacemacs config
+# Example git checkout from Ansible Playbooks
+- git:
+    repo: 'https://github.com/syl20bnr/spacemacs'
+    dest: /home/{{ user_name }}/.emacs.d
+   
+# git clone https://github.com/syl20bnr/spacemacs 
