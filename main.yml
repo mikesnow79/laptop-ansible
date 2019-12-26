@@ -22,4 +22,5 @@
     - { role: editors,            tags: ['editors'] }
     - { role: dev,                tags: ['dev'] }
     - { role: gnome,              tags: ['gnome']}
+    - { role: media,              tags: ['media']}
 
