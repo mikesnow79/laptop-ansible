@@ -25,3 +25,5 @@
     state: directory
   become_user: '{{ user_name }}'
   become: yes
+
+- include: git.yml
