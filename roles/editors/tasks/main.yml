@@ -35,3 +35,10 @@
   become: yes
   tags:
     - git
+
+- name: Install vim plugin manager
+  git:
+    repo: "https://github.com/VundleVim/Vundle.vim.git"
+    dest: "/home/{{ user_name }}/.vim/bundle/Vundle.vim"
+  become_user: "{{ user_name }}"
+  become: yes

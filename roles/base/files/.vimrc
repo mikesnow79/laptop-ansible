@@ -6,8 +6,8 @@ set laststatus=2
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " let Vundle manage Vundle, required
-Bundle 'gmarik/Vundle.vim'
-Bundle 'scrooloose/nerdtree'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'bling/vim-airline'
 Plugin 'ryanoasis/vim-webdevicons'
