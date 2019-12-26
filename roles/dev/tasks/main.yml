@@ -26,6 +26,6 @@
   tags:
     - aur
 
-# - include: docker-config.yml
+- include: docker-config.yml
 # - include: emacs-config.yml
 
