@@ -28,6 +28,8 @@ utils:
   - ntp
   - fontforge
   - python-psutil
+  - cmatrix
+  - vlc
 
 utils_aur:
     - git-extras
