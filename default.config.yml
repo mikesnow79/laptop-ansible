@@ -52,6 +52,6 @@ developer_stack_sudo:
 developer_stack_aur: []
 
 fonts_aur:
-  - ttf-nerd-fonts-input
+  - ttf-input
   - ttf-blex-nerd-font-git
   - nerd-fonts-meslo

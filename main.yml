@@ -21,4 +21,5 @@
     - { role: base,               tags: ['base'] }
     - { role: editors,            tags: ['editors'] }
     - { role: dev,                tags: ['dev'] }
+    - { role: gnome,              tags: ['gnome']}
 
