@@ -23,5 +23,5 @@
     - { role: dev,                tags: ['dev'] }
     - { role: gnome,              tags: ['gnome']}
     - { role: media,              tags: ['media']}
-    # - { role: vms,                tags: ['vms']}
+    - { role: browsers,           tags: ['browsers']}
 

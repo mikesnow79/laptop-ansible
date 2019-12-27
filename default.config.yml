@@ -66,6 +66,11 @@ media: []
 
 media_aur: []
 
+browsers: 
+  - firefox
+
+browsers_aur: []
+
 vms:
   - virtualbox
   - vagrant
