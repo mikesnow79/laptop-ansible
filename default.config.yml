@@ -43,7 +43,8 @@ shell_aliases:
     - alias ll='ls -lrta'
     - alias vi=vim
 
-pip_packages: []
+pip_packages: 
+  - pipenv
 
 developer_stack: []
 
