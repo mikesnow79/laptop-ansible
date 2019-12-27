@@ -1,2 +1,3 @@
 - name: Fix Audio button controls by updating pulseaudio
-  msg: "Pass"
+  debug:
+    msg: "Pass"
