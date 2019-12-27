@@ -21,6 +21,7 @@
 - include: git.yml
 - include: dotfiles.yml
 - include: fonts.yml
+- include: fix-audio.yml
 
 - name: Creates projects directory
   file:
