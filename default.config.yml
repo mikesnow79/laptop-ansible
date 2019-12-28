@@ -34,6 +34,8 @@ utils:
   - cmatrix
   - vlc
   - bat
+  - ranger
+  - highlight
 
 utils_aur:
     - git-extras
@@ -43,6 +45,7 @@ utils_aur:
 shell_aliases:
     - alias ll='ls -lrta'
     - alias vi=vim
+    - alias cat=bat
 
 pip_packages: 
   - pipenv
