@@ -42,3 +42,5 @@
     dest: "/home/{{ user_name }}/.vim/bundle/Vundle.vim"
   become_user: "{{ user_name }}"
   become: yes
+
+- include: emacs-config.yml
