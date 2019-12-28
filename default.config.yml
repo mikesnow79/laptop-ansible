@@ -33,6 +33,7 @@ utils:
   - python-psutil
   - cmatrix
   - vlc
+  - bat
 
 utils_aur:
     - git-extras
