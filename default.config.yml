@@ -36,6 +36,7 @@ utils:
   - bat
   - ranger
   - highlight
+  - tldr
 
 utils_aur:
     - git-extras
