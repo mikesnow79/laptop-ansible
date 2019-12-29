@@ -37,6 +37,7 @@ utils:
   - ranger
   - highlight
   - tldr
+  - fd
 
 utils_aur:
     - git-extras
