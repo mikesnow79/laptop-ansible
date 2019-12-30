@@ -6,7 +6,7 @@ user_email: "mikesnow79@gmail.com"
 work_dirname: "projects"
 
 # zsh_theme: "agnoster"
-zsh_theme: "powerlevel9k/powerlevel9k"
+zsh_theme: "powerlevel10k/powerlevel10k"
 
 editors:
   - vim

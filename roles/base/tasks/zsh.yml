@@ -39,6 +39,13 @@
   tags:
     - zsh
 
+- name: Get PowerLevel 10k theme from git
+  git:
+    repo: 'https://github.com/romkatv/powerlevel10k.git'
+    dest: "/home/{{ user_name }}/.oh-my-zsh/custom/themes/powerlevel10k"
+  tags:
+    - zsh
+
 - name: Change zsh shell theme from 'robbyrussell' to 'agnoster'
   replace:
     path: /home/{{ user_name }}/.zshrc
