@@ -1,0 +1,6 @@
+- name: Uninstall unwanted Manjaro apps
+  pacman:
+    name: '{{ uninstall_default_apps }}'
+    state: absent
+    extra_args: --recursive
+  become: yes

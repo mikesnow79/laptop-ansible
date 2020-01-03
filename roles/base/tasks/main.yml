@@ -22,6 +22,7 @@
 - include: dotfiles.yml
 - include: fonts.yml
 - include: fix-audio.yml
+- include: uninstall-defaults.yml
 
 - name: Creates projects directory
   file:
