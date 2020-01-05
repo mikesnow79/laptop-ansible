@@ -38,6 +38,7 @@ utils:
   - highlight
   - tldr
   - fd
+  - tmux
 
 utils_aur:
     - git-extras
